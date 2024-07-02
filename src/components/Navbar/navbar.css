@@ -1,0 +1,40 @@
+.navbar-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  height: 100px;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  align-items: center;
+}
+
+.logo p {
+  margin-left: 20px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.menu-container {
+  display: flex;
+  padding-right: 20px;
+}
+
+.menu-container li {
+  list-style: none;
+  padding: 20px;
+}
+
+.menu-container li:hover {
+  background-color: rgb(255, 144, 9);
+  border-radius: 20%;
+}
+.menu-container li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.menu-container li a:hover {
+  color: white;
+}
